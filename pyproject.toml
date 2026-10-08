@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jcc-agent"
+version = "0.1.0"
+description = "基于 PaddleOCR、对手快照与确认式操作的金铲铲 Agent"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy>=1.26,<3", "opencv-contrib-python>=4.10,<5", "Pillow>=10,<13"]
+
+[project.optional-dependencies]
+ocr = ["paddleocr>=3.0,<4", "paddlepaddle>=3.0,<4"]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+
+[project.scripts]
+jcc-agent = "jcc_agent.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jcc_agent"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

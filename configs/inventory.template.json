@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "source": "template",
+  "reviewed": false,
+  "ui_context_reviewed": false,
+  "viewed_player": "unknown",
+  "ordinary_merges": false,
+  "version": 0,
+  "observed_at": 0,
+  "notes": [
+    "本文件仅提供字段结构，不代表任何真实对局。",
+    "37个位置全部unknown；不得直接当成真实初始持牌执行。",
+    "请复制到local.inventory.json，逐格核对身份、星级和空位。",
+    "只有确认普通三合一规则适用后才将ordinary_merges设为true。",
+    "reviewed/source为审阅记录，不替代真实位置事实或自动建立完整性。"
+  ],
+  "board": {
+    "board_0": {
+      "slot": "board_0",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_1": {
+      "slot": "board_1",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_2": {
+      "slot": "board_2",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_3": {
+      "slot": "board_3",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_4": {
+      "slot": "board_4",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_5": {
+      "slot": "board_5",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_6": {
+      "slot": "board_6",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_7": {
+      "slot": "board_7",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_8": {
+      "slot": "board_8",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_9": {
+      "slot": "board_9",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_10": {
+      "slot": "board_10",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_11": {
+      "slot": "board_11",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_12": {
+      "slot": "board_12",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_13": {
+      "slot": "board_13",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_14": {
+      "slot": "board_14",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_15": {
+      "slot": "board_15",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_16": {
+      "slot": "board_16",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_17": {
+      "slot": "board_17",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_18": {
+      "slot": "board_18",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_19": {
+      "slot": "board_19",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_20": {
+      "slot": "board_20",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_21": {
+      "slot": "board_21",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_22": {
+      "slot": "board_22",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_23": {
+      "slot": "board_23",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_24": {
+      "slot": "board_24",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_25": {
+      "slot": "board_25",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_26": {
+      "slot": "board_26",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "board_27": {
+      "slot": "board_27",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    }
+  },
+  "bench": {
+    "bench_0": {
+      "slot": "bench_0",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "bench_1": {
+      "slot": "bench_1",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "bench_2": {
+      "slot": "bench_2",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "bench_3": {
+      "slot": "bench_3",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "bench_4": {
+      "slot": "bench_4",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "bench_5": {
+      "slot": "bench_5",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "bench_6": {
+      "slot": "bench_6",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "bench_7": {
+      "slot": "bench_7",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    },
+    "bench_8": {
+      "slot": "bench_8",
+      "status": "unknown",
+      "hero_id": null,
+      "star": null,
+      "cost": null,
+      "confidence": 0,
+      "observed_at": 0,
+      "source": "template"
+    }
+  }
+}

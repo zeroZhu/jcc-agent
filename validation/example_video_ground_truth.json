@@ -1,0 +1,172 @@
+{
+  "source": "human inspection of decoded source frames; not OCR predictions",
+  "phase_null": "no independently verified fine-grained phase for this frame",
+  "star_null": "stars are icons; no numeric star text verified",
+  "frames": [
+    {
+      "timestamp": 5,
+      "phase": "encounter",
+      "shop_visible": false,
+      "detail": null,
+      "choice_titles": [
+        "伐树小队",
+        "喷嚏不绝",
+        "一元店"
+      ]
+    },
+    {
+      "timestamp": 27,
+      "phase": "transition",
+      "shop_visible": false,
+      "detail": null,
+      "notes": [
+        "Black fade-out transition; no explicit transition text. A pure-OCR detector should remain unknown rather than use the timestamp."
+      ]
+    },
+    {
+      "timestamp": 35,
+      "phase": "pve",
+      "shop_visible": false,
+      "detail": null,
+      "round": "1-2"
+    },
+    {
+      "timestamp": 70,
+      "phase": "pve",
+      "shop_visible": true,
+      "shop": [
+        "kogmaw",
+        "darius",
+        "reksai",
+        "ahri",
+        "jax"
+      ],
+      "prices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "detail": null,
+      "gold": 5,
+      "level": 2,
+      "round": "1-3"
+    },
+    {
+      "timestamp": 120,
+      "phase": "pve",
+      "shop_visible": true,
+      "shop": [
+        "jax",
+        "jax",
+        "chogath",
+        null,
+        "gnar"
+      ],
+      "prices": [
+        1,
+        1,
+        1,
+        null,
+        1
+      ],
+      "detail": null,
+      "gold": 5,
+      "level": 3,
+      "round": "1-4",
+      "notes": [
+        "Slot 3 visually blank; OCR is not expected to declare empty without a purchase transaction."
+      ]
+    },
+    {
+      "timestamp": 140,
+      "phase": "augment",
+      "shop_visible": false,
+      "detail": null,
+      "choice_titles": [
+        "活体锻炉",
+        "棱彩门票",
+        "万用瞄准镜 II"
+      ],
+      "round": "2-1"
+    },
+    {
+      "timestamp": 160,
+      "phase": null,
+      "shop_visible": true,
+      "shop": [
+        "malphite",
+        "malphite",
+        "reksai",
+        "ahri",
+        "senna"
+      ],
+      "prices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "detail": null,
+      "gold": 8,
+      "level": 3,
+      "round": "2-1"
+    },
+    {
+      "timestamp": 220,
+      "phase": null,
+      "shop_visible": true,
+      "shop": [
+        "darius",
+        "kobuko",
+        "ahri",
+        "kogmaw",
+        "teemo"
+      ],
+      "prices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "detail": null,
+      "gold": 15,
+      "level": 3,
+      "round": "2-2"
+    },
+    {
+      "timestamp": 265,
+      "phase": "combat",
+      "shop_visible": false,
+      "detail": "shen",
+      "detail_star_text": null,
+      "round": "2-2"
+    },
+    {
+      "timestamp": 270,
+      "phase": "combat",
+      "shop_visible": false,
+      "detail": "kogmaw",
+      "detail_star_text": null,
+      "round": "2-2"
+    },
+    {
+      "timestamp": 275,
+      "phase": "combat",
+      "shop_visible": false,
+      "detail": "illaoi",
+      "detail_star_text": null,
+      "round": "2-2"
+    },
+    {
+      "timestamp": 280,
+      "phase": "combat",
+      "shop_visible": false,
+      "detail": null,
+      "round": "2-2"
+    }
+  ]
+}
